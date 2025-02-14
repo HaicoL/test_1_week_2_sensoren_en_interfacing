@@ -9,8 +9,6 @@ LiquidCrystal_I2C lcd(0x27, lcdColumns, lcdRows);
 BH1750 lightMeter;
 
 #define PIN_LM335 32
-#define ADC_VREF_mV 3000.0
-#define ADC_RESOLUTION 4096.0
 
 void setup() {
   Serial.begin(9600);
